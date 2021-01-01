@@ -8,6 +8,8 @@ Two sensers are used as switches, the SW-520D Tilt Sensor as the on-switch, and 
 
 The case  was made with a 3D printer.  3 AAA batteries are used as the power source. 
 
+Spence Konde's library megaTinyCore https://github.com/SpenceKonde/megaTinyCore was used for the code.
+
 ![Circuit](https://raw.githubusercontent.com/qisun1/candle/main/candle.jpg)
 
 ![Circuit](https://raw.githubusercontent.com/qisun1/candle/main/candle_circuit.png)
