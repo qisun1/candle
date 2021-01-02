@@ -89,13 +89,6 @@ void loop() {
     {
       LED_B = 2550;
     }
-
-    if ((LED_R>=2550) && (LED_G>=2550) && (LED_B>=2550))
-    {
-      LED_R = INIT_R;
-      LED_G = INIT_G;
-      LED_B = INIT_B;   
-    }
     
     pixels.setPixelColor(0, pixels.Color(LED_G/10, LED_R/10, LED_B/10)); // Moderately bright green color.
     pixels.show(); // This sends the updated pixel color to the hardware.
